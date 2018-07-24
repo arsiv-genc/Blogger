@@ -18,7 +18,7 @@
 <title>404 Not Found</title>
 </b:if>
 <b:if cond='data:blog.metaDescription'>
-<meta expr:content='data:blog.metaDescription' name='description'/>
+<meta expr:content='data:blog.metaDescription snippet { length: 150, links: false, linebreaks: false, ellipsis: false }' name='description'/>
 <b:if cond='data:view.isHomepage'>
 <meta expr:content='data:blog.title' name='keywords'/>
 <b:else/>
@@ -58,7 +58,7 @@
 <meta expr:content='data:blog.pageName' itemprop='name'/>
 </b:if>
 <b:if cond='data:blog.metaDescription'>
-<meta expr:content='data:blog.metaDescription' itemprop='description'/>
+<meta expr:content='data:blog.metaDescription snippet { length: 150, links: false, linebreaks: false, ellipsis: false }' itemprop='description'/>
 <b:else/>
 <meta expr:content='data:blog.pageName' itemprop='description'/>
 </b:if>
@@ -83,7 +83,7 @@
 <meta expr:content='data:blog.pageName' property='og:image:alt'/>
 </b:if>
 <b:if cond='data:blog.metaDescription'>
-<meta expr:content='data:blog.metaDescription' property='og:description'/>
+<meta expr:content='data:blog.metaDescription snippet { length: 150, links: false, linebreaks: false, ellipsis: false }' property='og:description'/>
 <b:else/>
 <meta expr:content='data:blog.pageName + &quot;.&quot;' property='og:description'/>
 </b:if>
@@ -100,7 +100,7 @@
 <meta expr:content='data:blog.pageName' name='twitter:title'/>
 </b:if>
 <b:if cond='data:blog.metaDescription'>
-<meta expr:content='data:blog.metaDescription' name='twitter:description'/>
+<meta expr:content='data:blog.metaDescription snippet { length: 150, links: false, linebreaks: false, ellipsis: false }' name='twitter:description'/>
 <b:else/>
 <meta expr:content='data:blog.pageName' name='twitter:description'/>
 </b:if>
