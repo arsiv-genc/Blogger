@@ -124,7 +124,15 @@
 <script>window.lazyScripts=[]</script>
 
 <b:skin version='1.0.0'><![CDATA[
-/*<Group description="Comments" selector=".comments-container">
+/* ==========================================================================
+VARIABLE DEV
+============================================================================= 
+<Variable name="keycolor" description="Main Color" type="color" default="#1f285a" value="#1f285a"/>
+<Group description="Body" selector="body">
+<Variable name="body.background.color" description="body.background.color" type="color" default="#1f285a" value="#1f285a"/>
+</Group>
+<Variable name="body.background" description="body.background" type="background" color="$(body.background.color)" default="$(color) none no-repeat fixed center center" value="$(color) url(https://lh3.googleusercontent.com/-j5nc8XSJxKE/WZOq9AmUauI/AAAAAAAAAIU/QmKZHdVfyEQKeSD6b7UMg8v0DyWi9GOGgCEwYBhgL/w360-h320-p/43917-winter-landscape-trees-depth_of_field-snow-city.jpg) repeat scroll top left"/>
+<Group description="Comments" selector=".comments-container">
 <Variable name="comment.container" description="comment.container" type="color" default="#fff" value="#ffffff"/>
 <Variable name="comment.chat.background" description="comment.chat.background" type="color" default="#efefef" value="#efefef"/>
 <Variable name="comment.link.color" description="comment.link.color" type="color" default="#3f51b5" value="#3f51b5"/>
@@ -133,7 +141,8 @@
 <Variable name="comment.button.color.hover" description="comment.button.color.hover" type="color" default="#3f51b5" value="#3f51b5"/>
 <Variable name="comment.message.color" description="comment.message.color" type="color" default="#fff" value="#ffffff"/>
 <Variable name="comment.message.background" description="comment.message.background" type="color" default="#3f51b5" value="#3f51b5"/>
-</Group>*/
+</Group>
+========================================================================== */
 body#layout #globalShare,body#layout #b-section-Header2, body#layout #reset, body#layout #b-section-BlogSearch1{display:none}
 #blog-pager-newer-link {float:left}
 #blog-pager-home-link {display:inline}
@@ -148,6 +157,12 @@ body#layout #globalShare,body#layout #b-section-Header2, body#layout #reset, bod
 .post-content.index{overflow:hidden}
 .post-content.index .imagelink{display:inline-block;vertical-align:initial;float:left;margin-right:10px;width:333px;height:200px;overflow:hidden;border-radius:3px}
 .post-content.index img{width:100%;height:100%;display:block;vertical-align:initial}
+.brand-wrap {background: $(body.background);}
+#menu .introduce{margin:0}#menu .nickname{margin:.5em 0}#menu .avatar{border-radius:.5em;background:#fff}
+
+/* Social Icon */
+.social-icon{list-style:none;padding:0;margin:0}.social-icon li{display:inline-block}.social-icon li a{position:relative;width:20px;height:20px;line-height:20px;font-size:1em;display:inline-block;border-radius:.2em;color:#fff;text-align:center}
+.social-icon .facebook{background:#3B5998}.social-icon .twitter{background:#55ACEE}.social-icon .google{background:#dd4b39}.social-icon .linkedin{background:#007bb5}.social-icon .youtube{background:#b00}.social-icon .instagram{background:#ffa549}.social-icon .pinterest{background:#cb2027}.social-icon .snapchat-ghost{background:#fffc00;text-shadow:-1px 0 black,0 1px black,1px 0 black,0 -1px black}.social-icon .skype{background:#00aff0}.social-icon .android{background:#a4c639}.social-icon .dribbble{background:#ea4c89}.social-icon .vimeo{background:#45bbff}.social-icon .tumblr{background:#2c4762}.social-icon .vine{background:#00b489}.social-icon .foursquare{background:#45bbff}.social-icon .stumbleupon{background:#eb4924}.social-icon .flickr{background:#f40083}.social-icon .yahoo{background:#430297}.social-icon .soundcloud{background:#f50}.social-icon .reddit{background:#ff5700}.social-icon .rss{background:#f60}
 
 /* ==========================================================================
 Comment CSS
@@ -157,6 +172,9 @@ Comment CSS
 /* Highlight */
 .post-content pre {-webkit-user-select:all;-moz-user-select:all;-ms-user-select:all;user-select:all}
 .post-content pre{margin:0;padding:0;background:none}.hljs{display:block!important;overflow-x:auto!important;background:#333!important;color:white!important;padding:25px 0 25px 25px!important}.hljs-name,.hljs-strong{font-weight:bold!important}.hljs-code,.hljs-emphasis{font-style:italic!important}.hljs-tag{color:#62c8f3!important}.hljs-variable,.hljs-template-variable,.hljs-selector-id,.hljs-selector-class{color:#ade5fc!important}.hljs-string,.hljs-bullet{color:#a2fca2!important}.hljs-type,.hljs-title,.hljs-section,.hljs-attribute,.hljs-quote,.hljs-built_in,.hljs-builtin-name{color:#ffa!important}.hljs-number,.hljs-symbol,.hljs-bullet{color:#d36363!important}.hljs-keyword,.hljs-selector-tag,.hljs-literal{color:#fcc28c!important}.hljs-comment,.hljs-deletion,.hljs-code{color:#888!important}.hljs-regexp,.hljs-link{color:#c6b4f0!important}.hljs-meta{color:#fc9b9b!important}.hljs-deletion{background-color:#fc9b9b!important;color:#333!important}.hljs-addition{background-color:#a2fca2!important;color:#333!important}.hljs a{color:inherit!important}.hljs a:focus,.hljs a:hover{color:inherit!important;text-decoration:underline!important}
+
+/* Button */
+.button.disabled{opacity:.65;cursor:not-allowed}.buttons{overflow:hidden}.button,.button.disabled:hover{display:inline-block;margin-bottom:20px;text-decoration:none;border:1px solid #25729a;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;font-family:arial,helvetica,sans-serif;padding:10px;text-shadow:-1px -1px 0 rgba(0,0,0,.3);text-align:center;color:#FFF;background-color:#303f9f;background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#303f9f),color-stop(100%,#1c5a85));background-image:-webkit-linear-gradient(top,#303f9f,#1c5a85);background-image:-moz-linear-gradient(top,#303f9f,#1c5a85);background-image:-ms-linear-gradient(top,#303f9f,#1c5a85);background-image:-o-linear-gradient(top,#303f9f,#1c5a85);background-image:linear-gradient(top,#303f9f,#1c5a85);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#303f9f, endColorstr=#1c5a85)}.button:hover{text-decoration:none;color:#fff;border:1px solid #1c5675;background-color:#3f51b5;background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#3f51b5),color-stop(100%,#133d5b));background-image:-webkit-linear-gradient(top,#3f51b5,#133d5b);background-image:-moz-linear-gradient(top,#3f51b5,#133d5b);background-image:-ms-linear-gradient(top,#3f51b5,#133d5b);background-image:-o-linear-gradient(top,#3f51b5,#133d5b);background-image:linear-gradient(top,#3f51b5,#133d5b);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#3f51b5, endColorstr=#133d5b)}
 
 .adspost{display:block;width:100%;padding:10px;margin:0 auto 15px;text-align:center;background:#f5f5f5}
 .adspost.bottom{margin:15px auto}
@@ -170,11 +188,11 @@ Comment CSS
 ]]></b:skin>
 
 <noscript>
-	<style type='text/css'>
-		#HTML111,#HTML222,#HTML333,#HTML555 {
-		display:none;
-		}
-	</style>
+<style type='text/css'>
+#HTML111,#HTML222,#HTML333,#HTML555 {
+display:none;
+}
+</style>
 </noscript>
 
 <script type='text/javascript'>
@@ -199,26 +217,44 @@ function kodein_MoveByID(e,n){var t=document.createDocumentFragment();t.appendCh
 <a class='header-icon waves-effect waves-circle waves-light' href='javascript:;' id='menu-off'>
 <i class='icon icon-lg icon-close'/>
 </a>
+<div class='brand-wrap'>
+<div class="brand">
 <b:section id='b-section-Header1' maxwidgets='1' showaddelement='no'>
-<b:widget id='HTML1' locked='true' title='Header Nav' type='HTML' version='2' visible='true'>
+<b:widget id='HTML1' locked='true' title='Avatar URL' type='HTML' version='2' visible='true'>
 <b:widget-settings>
-<b:widget-setting name='content'>&lt;div class=&quot;brand-wrap&quot; style=&quot;background-image:url(https://lh3.googleusercontent.com/-j5nc8XSJxKE/WZOq9AmUauI/AAAAAAAAAIU/QmKZHdVfyEQKeSD6b7UMg8v0DyWi9GOGgCEwYBhgL/w360-h320-p/43917-winter-landscape-trees-depth_of_field-snow-city.jpg)&quot;&gt;
-&lt;div class=&quot;brand&quot;&gt;
-&lt;span title=&#39;Face&#39; class=&quot;avatar waves-effect waves-circle waves-light&quot;&gt;
-&lt;img src=&quot;https://3.bp.blogspot.com/-JwRHx6BwXAg/W1aafBndyRI/AAAAAAAAAmk/_ZAidPspgI8bims6nlshJjpLt9aX4sHfwCLcBGAs/s1600/coffee-icon-1.png&quot;/&gt;
-&lt;/span&gt;
-&lt;hgroup class=&quot;introduce&quot;&gt;
-&lt;h5 class=&quot;nickname&quot;&gt;Irfaan&lt;/h5&gt;
-&lt;a href=&quot;mailto:programmer.irfaan@gmail.com&quot; title=&quot;programmer.irfaan@gmail.com&quot; class=&quot;mail&quot;&gt;programmer.irfaan@gmail.com&lt;/a&gt;
-&lt;/hgroup&gt;
-&lt;/div&gt;
-&lt;/div&gt;</b:widget-setting>
+<b:widget-setting name='content'>https://3.bp.blogspot.com/-JwRHx6BwXAg/W1aafBndyRI/AAAAAAAAAmk/_ZAidPspgI8bims6nlshJjpLt9aX4sHfwCLcBGAs/s1600/coffee-icon-1.png</b:widget-setting>
 </b:widget-settings>
 <b:includable id='main'>
-<data:content/>
+<span title='Face' class="avatar waves-effect waves-circle waves-light">
+<img expr:src="data:content"/>
+</span>
 </b:includable>
 </b:widget>
+<b:widget id='LinkList1' locked='true' title='Social Icon' type='LinkList' version='2' visible='true'>
+<b:widget-settings>
+<b:widget-setting name='sorting'>NONE</b:widget-setting>
+<b:widget-setting name='text-1'>twitter</b:widget-setting>
+<b:widget-setting name='link-1'>https://twitter.com/irfaandemmy</b:widget-setting>
+<b:widget-setting name='text-0'>facebook</b:widget-setting>
+<b:widget-setting name='link-2'>https://instagram.com/irfaandemmy</b:widget-setting>
+<b:widget-setting name='link-0'>https://facebook.com/he.irfaan</b:widget-setting>
+<b:widget-setting name='text-2'>instagram</b:widget-setting>
+</b:widget-settings>
+<b:includable id='main'>
+<hgroup class='introduce'>
+<h5 class='nickname'><data:blog.title/></h5>
+<ul class='social-icon'>
+<b:loop values='data:links' var='link'>
+<li><a expr:class='data:link.name' expr:href='data:link.target' expr:title='data:link.name' target='_blank'><i aria-hidden='true' expr:class='&quot;icon icon-&quot; + data:link.name'/></a></li>
+</b:loop>										
+</ul>
+</hgroup>								
+</b:includable>
+<b:includable id='content'/>
+</b:widget>
 </b:section> 
+</div>
+</div>
 
 <div class='scroll-wrap flex-col'>
 
@@ -1134,8 +1170,8 @@ kodein_MoveByID(&#39;ads-bottom-post-source&#39;,&#39;ads-bottom-target&#39;);
 </b:includable>
 </b:widget>
 <b:widget id='ContactForm1' locked='true' title='Contact Static Page' type='ContactForm' version='2' visible='true'>
-	<b:includable id='main'/>
-	<b:includable id='content'/>
+<b:includable id='main'/>
+<b:includable id='content'/>
 </b:widget>
 </b:section>    
 
@@ -1207,7 +1243,7 @@ var current=location.pathname?location.pathname:"./";$(".nav li a").each(functio
 <b:defaultmarkups>
 <b:defaultmarkup type='Common'>
 <b:includable id='body'>
-<b:if cond='data:view.isPreview'><body/><b:else/><body/></b:if>
+<body/>
 </b:includable>
 </b:defaultmarkup>
 </b:defaultmarkups>&lt;/body&gt;
