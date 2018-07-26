@@ -1158,6 +1158,14 @@ kodein_MoveByID(&#39;ads-bottom-post-source&#39;,&#39;ads-bottom-target&#39;);
 <div class='top'>
 
 <b:section id='b-section-PageList1' maxwidgets='1' showaddelement='no'>
+<b:widget cond='!data:view.isPreview' id='HTML595' locked='true' title='Free HTML' type='HTML' version='2' visible='true'>
+<b:widget-settings>
+<b:widget-setting name='content'><![CDATA[]]></b:widget-setting>
+</b:widget-settings>
+<b:includable id='main'>
+<data:content/>
+</b:includable>
+</b:widget>	
 <b:widget id='PageList1' locked='true' title='Pages' type='PageList' version='2' visible='false'>
 <b:widget-settings>
 <b:widget-setting name='pageListJson'><![CDATA[{'home': {'href': 'https://programmer.irfaandemmy.com/', 'title': 'Home', 'position': 0}}]]></b:widget-setting>
@@ -1213,14 +1221,6 @@ Lalu Lintas&#65306;<span id='busuanzi_value_site_pv'/>
 </div>
 
 <b:section id='b-section-Fiture1' maxwidgets='1' showaddelement='no'>
-<b:widget cond='!data:view.isPreview' id='HTML595' locked='true' title='Free HTML' type='HTML' version='2' visible='true'>
-<b:widget-settings>
-<b:widget-setting name='content'><![CDATA[]]></b:widget-setting>
-</b:widget-settings>
-<b:includable id='main'>
-<data:content/>
-</b:includable>
-</b:widget>
 <b:widget cond='!data:view.isPreview' id='HTML556' locked='true' title='Adblock Plugin' type='HTML' version='2' visible='false'>
 <b:widget-settings>
 <b:widget-setting name='content'>Adblock Detected</b:widget-setting>
