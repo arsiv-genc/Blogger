@@ -236,6 +236,12 @@ PLEASE ENABLE JAVASCRIPT
 </div>
 </noscript>
 
+<b:if cond='data:view.isError'>
+<script>
+window.location.href = &quot;<data:blog.homepageUrl/>&quot;;
+</script>
+</b:if>
+
 <div id="loading" class="active"></div>
 
 <b:section id='reset'/>
