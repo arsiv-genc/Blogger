@@ -150,6 +150,7 @@ body#layout #globalShare,body#layout #b-section-Header2, body#layout #reset, bod
 .labelcount {background: #ddd; padding: 2px 6px; border-radius: 4px; font-size: 12px; } 
 .CSS_LIGHTBOX{z-index:999 !important}
 .hidden{display: none;}
+mark{background:#585858;color:#fff;padding:2px 4px;}
 .post-body img{max-width:100%;height:auto}
 .post-body a.img,.post-body .separator a {margin-left:0!important;margin-right:0!important;}
 
