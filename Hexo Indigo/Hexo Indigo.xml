@@ -135,7 +135,7 @@ VARIABLE DEV
 <Group description="Body" selector="body">
 <Variable name="body.background.color" description="body.background.color" type="color" default="#1f285a" value="#1f285a"/>
 </Group>
-<Variable name="body.background" description="body.background" type="background" color="$(body.background.color)" default="$(color) none no-repeat fixed center center" value="$(color) url(https://lh3.googleusercontent.com/-j5nc8XSJxKE/WZOq9AmUauI/AAAAAAAAAIU/QmKZHdVfyEQKeSD6b7UMg8v0DyWi9GOGgCEwYBhgL/w360-h320-p/43917-winter-landscape-trees-depth_of_field-snow-city.jpg) repeat scroll top left"/>
+<Variable name="body.background" description="body.background" type="background" color="$(body.background.color)" default="$(color) none no-repeat fixed center center" value="$(color) url(http://4.bp.blogspot.com/-ccD1bFT5pSo/W1f3FCTqceI/AAAAAAAAAnU/APn0jPmargUzjhTPQGVrzI_vMcBDXqcZwCK4BGAYYCw/s1600/2018-07-22%2B11.28.49%2B1828831537154238426_galaxy.jpg) repeat scroll top left"/>
 <Group description="Comments" selector=".comments-container">
 <Variable name="comment.container" description="comment.container" type="color" default="#fff" value="#ffffff"/>
 <Variable name="comment.chat.background" description="comment.chat.background" type="color" default="#efefef" value="#efefef"/>
@@ -175,6 +175,7 @@ body#layout #globalShare,body#layout #b-section-Header2, body#layout #reset, bod
 #blog-pager-newer-link {float:left}
 #blog-pager-home-link {display:inline}
 #blog-pager-older-link {float:right}
+.page-share .share-icons a:before {content: 'Share to ' attr(data-title);}
 .labelcount {background: #ddd; padding: 2px 6px; border-radius: 4px; font-size: 12px; } 
 .CSS_LIGHTBOX{z-index:999 !important}
 .hidden{display: none;}
@@ -222,7 +223,7 @@ Comment CSS
 <noscript>
 <style type='text/css'>
 #HTML111,#HTML222,#HTML333,#HTML555 {display:none;}
-body{background-size:cover;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;font-family:'Drift';overflow:hidden;cursor:crosshair;background:none;margin:0;padding:0}#wrapper{width:250px;margin:auto}@media(min-width:768px){#wrapper{width:500px}}.center{position:fixed;top:0;left:0;right:0;bottom:0;z-index:1001;color:#fff;font-size:3rem;text-transform: uppercase;font-weight: 700;}.bg{background:#3F51B5;height:100%;width:100%;position:fixed;top:0;left:0;z-index:997}.bg:before{content:'';width:100%;height:100%;background:#000;position:fixed;z-index:-1;top:0;left:0;opacity:.3}@keyframes sf-fly-by-1{from{transform:translateZ(-600px);opacity:.5}to{transform:translateZ(0);opacity:.5}}@keyframes sf-fly-by-2{from{transform:translateZ(-1200px);opacity:.5}to{transform:translateZ(-600px);opacity:.5}}@keyframes sf-fly-by-3{from{transform:translateZ(-1800px);opacity:.5}to{transform:translateZ(-1200px);opacity:.5}}.star-field{position:fixed;top:0;left:0;width:100%;height:100%;perspective:600px;-webkit-perspective:600px;z-index:999}.star-field .layer{box-shadow:-411px -476px #cccccc,777px -407px #d4d4d4,-387px -477px #fcfcfc,-91px -235px #d4d4d4,491px -460px #f7f7f7,892px -128px #f7f7f7,758px -277px #ededed,596px 378px #cccccc,647px 423px whitesmoke,183px 389px #c7c7c7,524px -237px #f0f0f0,679px -535px #e3e3e3,158px 399px #ededed,157px 249px #ededed,81px -450px #ebebeb,719px -360px #c2c2c2,-499px 473px #e8e8e8,-158px -349px #d4d4d4,870px -134px #cfcfcf,446px 404px #c2c2c2,440px 490px #d4d4d4,414px 507px #e6e6e6,-12px 246px #fcfcfc,-384px 369px #e3e3e3,641px -413px #fcfcfc,822px 516px #dbdbdb,449px 132px #c2c2c2,727px 146px #f7f7f7,-315px -488px #e6e6e6,952px -70px #e3e3e3,-869px -29px #dbdbdb,502px 80px #dedede,764px 342px #e0e0e0,-150px -380px #dbdbdb,654px -426px #e3e3e3,-325px -263px #c2c2c2,755px -447px #c7c7c7,729px -177px #c2c2c2,-682px -391px #e6e6e6,554px -176px #ededed,-85px -428px #d9d9d9,714px 55px #e8e8e8,359px -285px #cfcfcf,-362px -508px #dedede,468px -265px #fcfcfc,74px -500px #c7c7c7,-514px 383px #dbdbdb,730px -92px #cfcfcf,-112px 287px #c9c9c9,-853px 79px #d6d6d6,828px 475px #d6d6d6,-681px 13px #fafafa,-176px 209px #f0f0f0,758px 457px #fafafa,-383px -454px #ededed,813px 179px #d1d1d1,608px 98px whitesmoke,-860px -65px #c4c4c4,-572px 272px #f7f7f7,459px 533px #fcfcfc,624px -481px #e6e6e6,790px 477px #dedede,731px -403px #ededed,70px -534px #cccccc,-23px 510px #cfcfcf,-652px -237px whitesmoke,-690px 367px #d1d1d1,810px 536px #d1d1d1,774px 293px #c9c9c9,-362px 97px #c2c2c2,563px 47px #dedede,313px 475px #e0e0e0,839px -491px #e3e3e3,-217px 377px #d4d4d4,-581px 239px #c2c2c2,-857px 72px #cccccc,-23px 340px #dedede,-837px 246px white,170px -502px #cfcfcf,822px -443px #e0e0e0,795px 497px #e0e0e0,-814px -337px #cfcfcf,206px -339px #f2f2f2,-779px 108px #e6e6e6,808px 2px #d4d4d4,665px 41px #d4d4d4,-564px 64px #cccccc,-380px 74px #cfcfcf,-369px -60px #f7f7f7,47px -495px #e3e3e3,-383px 368px #f7f7f7,419px 288px #d1d1d1,-598px -50px #c2c2c2,-833px 187px #c4c4c4,378px 325px whitesmoke,-703px 375px #d6d6d6,392px 520px #d9d9d9,-492px -60px #c4c4c4,759px 288px #ebebeb,98px -412px #c4c4c4,-911px -277px #c9c9c9;transform-style:preserve-3d;position:absolute;top:50%;left:50%;height:4px;width:4px;border-radius:2px}.star-field .layer:nth-child(1){animation:sf-fly-by-1 5s linear infinite}.star-field .layer:nth-child(2){animation:sf-fly-by-2 5s linear infinite}.star-field .layer:nth-child(3){animation:sf-fly-by-3 5s linear infinite}
+body{background-size:cover;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;font-family:&#39;Drift&#39;;overflow:hidden;cursor:crosshair;background:none;margin:0;padding:0}#wrapper{width:250px;margin:auto}@media(min-width:768px){#wrapper{width:500px}}.center{position:fixed;top:0;left:0;right:0;bottom:0;z-index:1001;color:#fff;font-size:3rem;text-transform: uppercase;font-weight: 700;}.bg{background:#3F51B5;height:100%;width:100%;position:fixed;top:0;left:0;z-index:997}.bg:before{content:&#39;&#39;;width:100%;height:100%;background:#000;position:fixed;z-index:-1;top:0;left:0;opacity:.3}@keyframes sf-fly-by-1{from{transform:translateZ(-600px);opacity:.5}to{transform:translateZ(0);opacity:.5}}@keyframes sf-fly-by-2{from{transform:translateZ(-1200px);opacity:.5}to{transform:translateZ(-600px);opacity:.5}}@keyframes sf-fly-by-3{from{transform:translateZ(-1800px);opacity:.5}to{transform:translateZ(-1200px);opacity:.5}}.star-field{position:fixed;top:0;left:0;width:100%;height:100%;perspective:600px;-webkit-perspective:600px;z-index:999}.star-field .layer{box-shadow:-411px -476px #cccccc,777px -407px #d4d4d4,-387px -477px #fcfcfc,-91px -235px #d4d4d4,491px -460px #f7f7f7,892px -128px #f7f7f7,758px -277px #ededed,596px 378px #cccccc,647px 423px whitesmoke,183px 389px #c7c7c7,524px -237px #f0f0f0,679px -535px #e3e3e3,158px 399px #ededed,157px 249px #ededed,81px -450px #ebebeb,719px -360px #c2c2c2,-499px 473px #e8e8e8,-158px -349px #d4d4d4,870px -134px #cfcfcf,446px 404px #c2c2c2,440px 490px #d4d4d4,414px 507px #e6e6e6,-12px 246px #fcfcfc,-384px 369px #e3e3e3,641px -413px #fcfcfc,822px 516px #dbdbdb,449px 132px #c2c2c2,727px 146px #f7f7f7,-315px -488px #e6e6e6,952px -70px #e3e3e3,-869px -29px #dbdbdb,502px 80px #dedede,764px 342px #e0e0e0,-150px -380px #dbdbdb,654px -426px #e3e3e3,-325px -263px #c2c2c2,755px -447px #c7c7c7,729px -177px #c2c2c2,-682px -391px #e6e6e6,554px -176px #ededed,-85px -428px #d9d9d9,714px 55px #e8e8e8,359px -285px #cfcfcf,-362px -508px #dedede,468px -265px #fcfcfc,74px -500px #c7c7c7,-514px 383px #dbdbdb,730px -92px #cfcfcf,-112px 287px #c9c9c9,-853px 79px #d6d6d6,828px 475px #d6d6d6,-681px 13px #fafafa,-176px 209px #f0f0f0,758px 457px #fafafa,-383px -454px #ededed,813px 179px #d1d1d1,608px 98px whitesmoke,-860px -65px #c4c4c4,-572px 272px #f7f7f7,459px 533px #fcfcfc,624px -481px #e6e6e6,790px 477px #dedede,731px -403px #ededed,70px -534px #cccccc,-23px 510px #cfcfcf,-652px -237px whitesmoke,-690px 367px #d1d1d1,810px 536px #d1d1d1,774px 293px #c9c9c9,-362px 97px #c2c2c2,563px 47px #dedede,313px 475px #e0e0e0,839px -491px #e3e3e3,-217px 377px #d4d4d4,-581px 239px #c2c2c2,-857px 72px #cccccc,-23px 340px #dedede,-837px 246px white,170px -502px #cfcfcf,822px -443px #e0e0e0,795px 497px #e0e0e0,-814px -337px #cfcfcf,206px -339px #f2f2f2,-779px 108px #e6e6e6,808px 2px #d4d4d4,665px 41px #d4d4d4,-564px 64px #cccccc,-380px 74px #cfcfcf,-369px -60px #f7f7f7,47px -495px #e3e3e3,-383px 368px #f7f7f7,419px 288px #d1d1d1,-598px -50px #c2c2c2,-833px 187px #c4c4c4,378px 325px whitesmoke,-703px 375px #d6d6d6,392px 520px #d9d9d9,-492px -60px #c4c4c4,759px 288px #ebebeb,98px -412px #c4c4c4,-911px -277px #c9c9c9;transform-style:preserve-3d;position:absolute;top:50%;left:50%;height:4px;width:4px;border-radius:2px}.star-field .layer:nth-child(1){animation:sf-fly-by-1 5s linear infinite}.star-field .layer:nth-child(2){animation:sf-fly-by-2 5s linear infinite}.star-field .layer:nth-child(3){animation:sf-fly-by-3 5s linear infinite}
 .noscript{position: absolute;z-index: 1000;}
 </style>
 </noscript>
@@ -242,7 +243,7 @@ function kodein_MoveByID(e,n){var t=document.createDocumentFragment();t.appendCh
 <noscript>
 <div class='noscript'>
 <div class='center'>
-<table width='100%' height='100%'>
+<table height='100%' width='100%'>
 <td align='center'>
 <div id='wrapper'>
 PLEASE ENABLE JAVASCRIPT
@@ -251,11 +252,11 @@ PLEASE ENABLE JAVASCRIPT
 </table>
 </div>
 </div>
-<div class="bg"></div>
-<div class="star-field">
-<div class="layer"></div>
-<div class="layer"></div>
-<div class="layer"></div>
+<div class='bg'/>
+<div class='star-field'>
+<div class='layer'/>
+<div class='layer'/>
+<div class='layer'/>
 </div>
 </noscript>
 
@@ -265,7 +266,7 @@ window.location.href = &quot;<data:blog.homepageUrl/>&quot;;
 </script>
 </b:if>
 
-<div id="loading" class="active"></div>
+<div class='active' id='loading'/>
 
 <b:section id='reset'/>
 
@@ -275,29 +276,29 @@ window.location.href = &quot;<data:blog.homepageUrl/>&quot;;
 <i class='icon icon-lg icon-close'/>
 </a>
 <div class='brand-wrap'>
-<div class="brand">
+<div class='brand'>
 <b:section id='b-section-Header1' maxwidgets='1' showaddelement='no'>
-<b:widget id='HTML1' locked='true' title='Avatar URL' type='HTML' version='2' visible='true'>
-<b:widget-settings>
-<b:widget-setting name='content'>https://lh3.googleusercontent.com/-Q_TRDtmVhww/WbIZPeGKjiI/AAAAAAAAAUY/zAwR7jYAbb8ObLj6saEDfLMz4OeKE4a4QCEwYBhgL/w136-h140-p/wes.png</b:widget-setting>
-</b:widget-settings>
-<b:includable id='main'>
-<span title='Face' class="avatar waves-effect waves-circle waves-light">
-<img expr:src="data:content"/>
+  <b:widget id='HTML1' locked='true' title='Avatar URL' type='HTML' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='content'>https://lh3.googleusercontent.com/-Q_TRDtmVhww/WbIZPeGKjiI/AAAAAAAAAUY/zAwR7jYAbb8ObLj6saEDfLMz4OeKE4a4QCEwYBhgL/w136-h140-p/wes.png</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+<span class='avatar waves-effect waves-circle waves-light' title='Face'>
+<img expr:src='data:content'/>
 </span>
 </b:includable>
-</b:widget>
-<b:widget id='LinkList1' locked='true' title='Social Icon' type='LinkList' version='2' visible='true'>
-<b:widget-settings>
-<b:widget-setting name='sorting'>NONE</b:widget-setting>
-<b:widget-setting name='text-1'>twitter</b:widget-setting>
-<b:widget-setting name='link-1'>https://twitter.com/irfaandemmy</b:widget-setting>
-<b:widget-setting name='text-0'>facebook</b:widget-setting>
-<b:widget-setting name='link-2'>https://instagram.com/irfaandemmy</b:widget-setting>
-<b:widget-setting name='link-0'>https://facebook.com/he.irfaan</b:widget-setting>
-<b:widget-setting name='text-2'>instagram</b:widget-setting>
-</b:widget-settings>
-<b:includable id='main'>
+  </b:widget>
+  <b:widget id='LinkList1' locked='true' title='Social Icon' type='LinkList' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='sorting'>NONE</b:widget-setting>
+      <b:widget-setting name='text-1'>twitter</b:widget-setting>
+      <b:widget-setting name='link-1'>https://twitter.com/irfaandemmy</b:widget-setting>
+      <b:widget-setting name='text-0'>facebook</b:widget-setting>
+      <b:widget-setting name='link-2'>https://instagram.com/irfaandemmy</b:widget-setting>
+      <b:widget-setting name='link-0'>https://facebook.com/programmer.irfaan</b:widget-setting>
+      <b:widget-setting name='text-2'>instagram</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
 <hgroup class='introduce'>
 <h5 class='nickname'><data:blog.title/></h5>
 <ul class='social-icon'>
@@ -307,8 +308,8 @@ window.location.href = &quot;<data:blog.homepageUrl/>&quot;;
 </ul>
 </hgroup>								
 </b:includable>
-<b:includable id='content'/>
-</b:widget>
+    <b:includable id='content'/>
+  </b:widget>
 </b:section> 
 </div>
 </div>
@@ -316,15 +317,15 @@ window.location.href = &quot;<data:blog.homepageUrl/>&quot;;
 <div class='scroll-wrap flex-col'>
 
 <b:section id='b-section-Label1' maxwidgets='1' showaddelement='no'>
-<b:widget id='Label1' locked='true' title='Navigation Vertical' type='Label' version='2' visible='true'>
-<b:widget-settings>
-<b:widget-setting name='sorting'>ALPHA</b:widget-setting>
-<b:widget-setting name='display'>LIST</b:widget-setting>
-<b:widget-setting name='selectedLabelsList'/>
-<b:widget-setting name='showType'>ALL</b:widget-setting>
-<b:widget-setting name='showFreqNumbers'>true</b:widget-setting>
-</b:widget-settings>
-<b:includable id='main' var='this'>
+  <b:widget id='Label1' locked='true' title='Navigation Vertical' type='Label' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
+      <b:widget-setting name='display'>LIST</b:widget-setting>
+      <b:widget-setting name='selectedLabelsList'/>
+      <b:widget-setting name='showType'>ALL</b:widget-setting>
+      <b:widget-setting name='showFreqNumbers'>true</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main' var='this'>
 
 <ul class='nav'>
 
@@ -352,10 +353,10 @@ Home
 </ul>
 
 </b:includable>
-<b:includable id='cloud'/>
-<b:includable id='content'/>
-<b:includable id='list'/>
-</b:widget>
+    <b:includable id='cloud'/>
+    <b:includable id='content'/>
+    <b:includable id='list'/>
+  </b:widget>
 </b:section>
 
 </div>
@@ -387,8 +388,8 @@ Home
 <i class='icon icon-lg icon-chevron-left'/>
 </a>
 <b:section id='b-section-BlogSearch1' maxwidgets='1' showaddelement='no'>
-<b:widget id='BlogSearch1' locked='true' title='Search' type='BlogSearch' version='2' visible='true'>
-<b:includable id='main'>
+  <b:widget id='BlogSearch1' locked='true' title='Search' type='BlogSearch' version='2' visible='true'>
+    <b:includable id='main'>
 <div itemscope='' itemtype='https://schema.org/WebSite'>
 <meta expr:content='data:view.url.canonical' itemprop='url'/>
 <form class='form-search' expr:action='data:blog.searchUrl' itemprop='potentialAction' itemscope='itemscop' itemtype='https://schema.org/SearchAction'>
@@ -397,10 +398,10 @@ Home
 </form>
 </div>
 </b:includable>
-<b:includable id='content'/>
-<b:includable id='searchForm'/>
-<b:includable id='searchSubmit'/>
-</b:widget>
+    <b:includable id='content'/>
+    <b:includable id='searchForm'/>
+    <b:includable id='searchSubmit'/>
+  </b:widget>
 </b:section>
 <a class='header-icon waves-effect waves-circle waves-light' href='javascript:;' id='search'>
 <i class='icon icon-lg icon-search'/>
@@ -417,17 +418,17 @@ Home
 <div class='container fade-scale'>
 
 <b:section id='b-section-Header2' maxwidgets='1' showaddelement='no'>
-<b:widget cond='data:view.isHomepage or data:view.search and !data:view.search.label and !data:view.search.query' id='Header2' locked='true' title='Kodein (Header)' type='Header' version='2' visible='true'>
-<b:widget-settings>
-<b:widget-setting name='displayUrl'/>
-<b:widget-setting name='displayHeight'>0</b:widget-setting>
-<b:widget-setting name='sectionWidth'>-1</b:widget-setting>
-<b:widget-setting name='useImage'>false</b:widget-setting>
-<b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-<b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
-<b:widget-setting name='displayWidth'>0</b:widget-setting>
-</b:widget-settings>
-<b:includable id='main' var='this'>
+  <b:widget cond='data:view.isHomepage or data:view.search and !data:view.search.label and !data:view.search.query' id='Header2' locked='true' title='Kodein (Header)' type='Header' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='displayUrl'/>
+      <b:widget-setting name='displayHeight'>0</b:widget-setting>
+      <b:widget-setting name='sectionWidth'>-1</b:widget-setting>
+      <b:widget-setting name='useImage'>false</b:widget-setting>
+      <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
+      <b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
+      <b:widget-setting name='displayWidth'>0</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main' var='this'>
 <b:if cond='data:title'>
 <h1 class='title'><data:title/></h1>
 </b:if>
@@ -435,34 +436,34 @@ Home
 <h5 class='subtitle'><data:description/></h5>
 </b:if>
 </b:includable>
-<b:includable id='behindImageStyle'/>
-<b:includable id='description'/>
-<b:includable id='image'/>
-<b:includable id='title'/>
-</b:widget>
-<b:widget id='Blog2' locked='true' title='Blog Posts' type='Blog' version='2' visible='true'>
-<b:widget-settings>
-<b:widget-setting name='showDateHeader'>false</b:widget-setting>
-<b:widget-setting name='style.textcolor'>#efefef</b:widget-setting>
-<b:widget-setting name='showShareButtons'>true</b:widget-setting>
-<b:widget-setting name='showCommentLink'>true</b:widget-setting>
-<b:widget-setting name='style.urlcolor'>#3f51b5</b:widget-setting>
-<b:widget-setting name='showAuthor'>true</b:widget-setting>
-<b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
-<b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
-<b:widget-setting name='style.bgcolor'>#000000</b:widget-setting>
-<b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
-<b:widget-setting name='style.layout'>1x1</b:widget-setting>
-<b:widget-setting name='showLabels'>true</b:widget-setting>
-<b:widget-setting name='showLocation'>true</b:widget-setting>
-<b:widget-setting name='showTimestamp'>true</b:widget-setting>
-<b:widget-setting name='postsPerAd'>1</b:widget-setting>
-<b:widget-setting name='showBacklinks'>true</b:widget-setting>
-<b:widget-setting name='style.bordercolor'>#000000</b:widget-setting>
-<b:widget-setting name='showInlineAds'>false</b:widget-setting>
-<b:widget-setting name='showReactions'>true</b:widget-setting>
-</b:widget-settings>
-<b:includable id='main' var='this'>
+    <b:includable id='behindImageStyle'/>
+    <b:includable id='description'/>
+    <b:includable id='image'/>
+    <b:includable id='title'/>
+  </b:widget>
+  <b:widget id='Blog2' locked='true' title='Blog Posts' type='Blog' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='showDateHeader'>false</b:widget-setting>
+      <b:widget-setting name='style.textcolor'>#3f51b5</b:widget-setting>
+      <b:widget-setting name='showShareButtons'>true</b:widget-setting>
+      <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+      <b:widget-setting name='style.urlcolor'>#bbbbbb</b:widget-setting>
+      <b:widget-setting name='showAuthor'>true</b:widget-setting>
+      <b:widget-setting name='style.linkcolor'>#1f285a</b:widget-setting>
+      <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+      <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+      <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+      <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+      <b:widget-setting name='showLabels'>true</b:widget-setting>
+      <b:widget-setting name='showLocation'>true</b:widget-setting>
+      <b:widget-setting name='showTimestamp'>true</b:widget-setting>
+      <b:widget-setting name='postsPerAd'>1</b:widget-setting>
+      <b:widget-setting name='showBacklinks'>true</b:widget-setting>
+      <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+      <b:widget-setting name='showInlineAds'>false</b:widget-setting>
+      <b:widget-setting name='showReactions'>true</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main' var='this'>
 <b:if cond='data:view.isSingleItem'>
 <b:loop values='data:posts' var='post'>       
 <h1 class='title'><data:post.title/></h1>
@@ -479,9 +480,9 @@ Home
 </h1>
 </b:if>
 </b:includable>
-<b:includable id='aboutPostAuthor'/>
-<b:includable id='addComments'/>
-<b:includable id='article.messages'>
+    <b:includable id='aboutPostAuthor'/>
+    <b:includable id='addComments'/>
+    <b:includable id='article.messages'>
 <b:if cond='data:view.isHomepage and data:posts.empty'>              
 <data:messages.theresNothingHere/>    
 </b:if>
@@ -510,51 +511,51 @@ Home
 <data:navMessage/>    
 </b:if>
 </b:includable>
-<b:includable id='commentAuthorAvatar'/>
-<b:includable id='commentDeleteIcon'/>
-<b:includable id='commentForm'/>
-<b:includable id='commentFormIframeSrc'/>
-<b:includable id='commentItem'/>
-<b:includable id='commentList'/>
-<b:includable id='commentPicker'/>
-<b:includable id='comments'/>
-<b:includable id='commentsTitle'/>
-<b:includable id='feedLinks'/>
-<b:includable id='feedLinksBody'/>
-<b:includable id='homePageLink'/>
-<b:includable id='iframeComments'/>
-<b:includable id='inlineAd'/>
-<b:includable id='nextPageLink'/>
-<b:includable id='post'/>
-<b:includable id='postBody'/>
-<b:includable id='postBodySnippet'/>
-<b:includable id='postCommentsAndAd'/>
-<b:includable id='postCommentsLink'/>
-<b:includable id='postFooter'/>
-<b:includable id='postFooterAuthorProfile'/>
-<b:includable id='postHeader'/>
-<b:includable id='postJumpLink'/>
-<b:includable id='postMeta'/>
-<b:includable id='postPagination'/>
-<b:includable id='postTitle'/>
-<b:includable id='previousPageLink'/>
-<b:includable id='status-message'/>
-<b:includable id='threadedCommentForm'/>
-<b:includable id='threadedCommentJs'/>
-<b:includable id='threadedComments'/>
-</b:widget>
+    <b:includable id='commentAuthorAvatar'/>
+    <b:includable id='commentDeleteIcon'/>
+    <b:includable id='commentForm'/>
+    <b:includable id='commentFormIframeSrc'/>
+    <b:includable id='commentItem'/>
+    <b:includable id='commentList'/>
+    <b:includable id='commentPicker'/>
+    <b:includable id='comments'/>
+    <b:includable id='commentsTitle'/>
+    <b:includable id='feedLinks'/>
+    <b:includable id='feedLinksBody'/>
+    <b:includable id='homePageLink'/>
+    <b:includable id='iframeComments'/>
+    <b:includable id='inlineAd'/>
+    <b:includable id='nextPageLink'/>
+    <b:includable id='post'/>
+    <b:includable id='postBody'/>
+    <b:includable id='postBodySnippet'/>
+    <b:includable id='postCommentsAndAd'/>
+    <b:includable id='postCommentsLink'/>
+    <b:includable id='postFooter'/>
+    <b:includable id='postFooterAuthorProfile'/>
+    <b:includable id='postHeader'/>
+    <b:includable id='postJumpLink'/>
+    <b:includable id='postMeta'/>
+    <b:includable id='postPagination'/>
+    <b:includable id='postTitle'/>
+    <b:includable id='previousPageLink'/>
+    <b:includable id='status-message'/>
+    <b:includable id='threadedCommentForm'/>
+    <b:includable id='threadedCommentJs'/>
+    <b:includable id='threadedComments'/>
+  </b:widget>
 </b:section>         
 </div>
 <b:section cond='data:view.search.label or data:view.search.query or data:view.isArchive' id='b-section-Label2' maxwidgets='1' showaddelement='no'>
-<b:widget id='Label2' locked='true' title='Navigation Horizontal' type='Label' version='2' visible='true'>
-<b:widget-settings>
-<b:widget-setting name='sorting'>ALPHA</b:widget-setting>
-<b:widget-setting name='display'>LIST</b:widget-setting>
-<b:widget-setting name='selectedLabelsList'/>
-<b:widget-setting name='showType'>ALL</b:widget-setting>
-<b:widget-setting name='showFreqNumbers'>true</b:widget-setting>
-</b:widget-settings>
-<b:includable id='main' var='this'>
+  <b:widget id='Label2' locked='true' title='Navigation Horizontal' type='Label' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
+      <b:widget-setting name='display'>LIST</b:widget-setting>
+      <b:widget-setting name='selectedLabelsList'/>
+      <b:widget-setting name='showType'>ALL</b:widget-setting>
+      <b:widget-setting name='showFreqNumbers'>true</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main' var='this'>
 
 <div class='tabs-bar container'>
 <nav class='tags-list'>
@@ -571,46 +572,86 @@ Home
 </div>
 
 </b:includable>
-<b:includable id='cloud'/>
-<b:includable id='content'/>
-<b:includable id='list'/>
-</b:widget>
+    <b:includable id='cloud'/>
+    <b:includable id='content'/>
+    <b:includable id='list'/>
+  </b:widget>
 </b:section>
 </header>
 
 <div class='container body-wrap fade in'>
 
 <b:section id='b-section-Blog' maxwidgets='1' showaddelement='no'>
-<b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='2' visible='true'>
-<b:widget-settings>
-<b:widget-setting name='showDateHeader'>false</b:widget-setting>
-<b:widget-setting name='style.textcolor'>#efefef</b:widget-setting>
-<b:widget-setting name='showShareButtons'>true</b:widget-setting>
-<b:widget-setting name='showCommentLink'>true</b:widget-setting>
-<b:widget-setting name='style.urlcolor'>#3f51b5</b:widget-setting>
-<b:widget-setting name='showAuthor'>true</b:widget-setting>
-<b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
-<b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
-<b:widget-setting name='style.bgcolor'>#000000</b:widget-setting>
-<b:widget-setting name='timestampLabel'/>
-<b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
-<b:widget-setting name='style.layout'>1x1</b:widget-setting>
-<b:widget-setting name='showLabels'>true</b:widget-setting>
-<b:widget-setting name='showLocation'>true</b:widget-setting>
-<b:widget-setting name='postLabelsLabel'/>
-<b:widget-setting name='showTimestamp'>true</b:widget-setting>
-<b:widget-setting name='postsPerAd'>1</b:widget-setting>
-<b:widget-setting name='showBacklinks'>true</b:widget-setting>
-<b:widget-setting name='style.bordercolor'>#000000</b:widget-setting>
-<b:widget-setting name='showInlineAds'>false</b:widget-setting>
-<b:widget-setting name='showReactions'>true</b:widget-setting>
-</b:widget-settings>
-<b:includable id='main' var='this'>       
+  <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='showDateHeader'>false</b:widget-setting>
+      <b:widget-setting name='style.textcolor'>#3f51b5</b:widget-setting>
+      <b:widget-setting name='showShareButtons'>true</b:widget-setting>
+      <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+      <b:widget-setting name='style.urlcolor'>#bbbbbb</b:widget-setting>
+      <b:widget-setting name='showAuthor'>true</b:widget-setting>
+      <b:widget-setting name='style.linkcolor'>#1f285a</b:widget-setting>
+      <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+      <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+      <b:widget-setting name='timestampLabel'/>
+      <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+      <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+      <b:widget-setting name='showLabels'>true</b:widget-setting>
+      <b:widget-setting name='showLocation'>true</b:widget-setting>
+      <b:widget-setting name='postLabelsLabel'/>
+      <b:widget-setting name='showTimestamp'>true</b:widget-setting>
+      <b:widget-setting name='postsPerAd'>1</b:widget-setting>
+      <b:widget-setting name='showBacklinks'>true</b:widget-setting>
+      <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+      <b:widget-setting name='showInlineAds'>false</b:widget-setting>
+      <b:widget-setting name='showReactions'>true</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main' var='this'>       
 <b:include name='article.loop'/>
 </b:includable>
-<b:includable id='aboutPostAuthor'/>
-<b:includable id='addComments'/>
-<b:includable id='article.comments.blogger'>
+    <b:includable id='aboutPostAuthor'/>
+    <b:includable id='addComments'/>
+    <b:includable id='article.breadcrumb'>
+<aside class='post-widgets hidden'>
+<nav class='post-toc-wrap'>
+<h4>Breadcrumb</h4>
+<ol class='post-toc' itemscope='itemscope' itemtype='http://schema.org/BreadcrumbList'>
+<li class='post-toc-item active'>
+<a class='post-toc-link' expr:href='data:blog.homepageUrl' expr:title='data:messages.home'>
+<span class='post-toc-number'>1.</span>
+<span class='post-toc-text'><data:messages.home/></span>
+</a>      
+</li>
+<b:if cond='data:post.labels'>
+<b:loop index='no' values='data:post.labels limit 1' var='label'>
+<li class='post-toc-item active' itemprop='itemListElement' itemscope='itemscope' itemtype='http://schema.org/ListItem'>               
+<a class='post-toc-link' expr:href='data:label.url' expr:title='data:label.name' itemprop='item' itemscope='itemscope' itemtype='http://schema.org/Thing'>
+<span class='post-toc-number'><b:eval expr='data:no + 2'/>.</span>
+<span class='post-toc-text' itemprop='name'><data:label.name/></span>    
+</a>
+<meta expr:content='1 + data:no' itemprop='position'/>
+</li>
+</b:loop>
+<b:else/>
+<b:if cond='data:view.isPost'>
+<li class='post-toc-item active' itemprop='itemListElement' itemscope='itemscope' itemtype='http://schema.org/ListItem'>
+<span class='post-toc-number'><b:eval expr='data:no + 1'/></span>
+<span class='post-toc-text'>Unlabelled</span>                
+<meta content='1' itemprop='position'/>
+</li>
+</b:if>
+</b:if>
+<li class='post-toc-item active'>
+<a class='post-toc-link' expr:href='data:blog.url' expr:title='data:blog.url'>
+<span class='post-toc-number'/>
+<span class='post-toc-text'><data:post.title/></span>    
+</a>
+</li>
+</ol>
+</nav>
+</aside>  
+</b:includable>
+    <b:includable id='article.comments.blogger'>
 <div class='comments-container'>
 <b:if cond='data:post.allowComments'>
 <b:if cond='data:post.allowNewComments'>
@@ -643,7 +684,7 @@ Home
 </b:if>
 </div>
 </b:includable>
-<b:includable id='article.comments.blogger.button'>
+    <b:includable id='article.comments.blogger.button'>
 <div class='comments' id='comments'>    
 <b:include name='article.comments.title.messages'/>   
 <button class='comment-button'>         
@@ -653,7 +694,7 @@ Home
 </button>
 </div>
 </b:includable>
-<b:includable id='article.comments.blogger.form'>
+    <b:includable id='article.comments.blogger.form'>
 <div class='comment-form'>              
 <b:if cond='data:this.messages.blogComment != &quot;&quot;'>
 <div class='comment-message'><data:this.messages.blogComment/></div>
@@ -670,14 +711,14 @@ BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
 
 </div>        
 </b:includable>
-<b:includable id='article.comments.blogger.messages'>
+    <b:includable id='article.comments.blogger.messages'>
 <b:if cond='data:this.messages.blogComment != &quot;&quot;'>
 <div class='comment_message_inner'>
 <data:this.messages.blogComment/>
 </div>
 </b:if>
 </b:includable>
-<b:includable id='article.comments.blogger.pagination'>
+    <b:includable id='article.comments.blogger.pagination'>
 <b:comment>Paging Comment</b:comment>
 <b:if cond='data:post.commentPagingRequired'>
 <div class='paging-control-container'>
@@ -697,7 +738,7 @@ BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
 </div>
 </b:if>
 </b:includable>
-<b:includable id='article.comments.blogger.thread'>
+    <b:includable id='article.comments.blogger.thread'>
 <section class='comments threaded' expr:data-embed='data:post.embedCommentForm' expr:data-num-comments='data:post.numberOfComments' id='comments'>    
 
 <b:include name='article.comments.title.messages'/> 
@@ -741,7 +782,7 @@ BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
 </b:if>
 
 </b:includable>
-<b:includable id='article.comments.blogger.thread.js'>
+    <b:includable id='article.comments.blogger.thread.js'>
 <script async='async' expr:src='data:post.commentSrc' type='text/javascript'/>
 <script type='text/javascript'>
 (function() {
@@ -767,14 +808,14 @@ var configJso={'maxDepth':config.maxThreadDepth};var provider={'id':config.postI
 // ]]>
 </script>
 </b:includable>
-<b:includable id='article.comments.google'>
+    <b:includable id='article.comments.google'>
 <b:if cond='data:post.allowComments'>
 <b:if cond='data:post.commentSource == 1'>
 <div class='cmt_iframe_holder' expr:data-href='data:post.url.canonical' expr:data-viewtype='data:post.viewType'/>           
 </b:if>
 </b:if>
 </b:includable>
-<b:includable id='article.comments.link'> 
+    <b:includable id='article.comments.link'> 
 <b:if cond='data:this.allBylineItems.comments'>
 <b:if cond='data:post.allowComments'>
 <a class='comment-link' expr:href='data:post.commentsUrl' expr:onclick='data:post.commentsUrlOnclick' expr:title='data:messages.postAComment'>
@@ -795,7 +836,7 @@ var configJso={'maxDepth':config.maxThreadDepth};var provider={'id':config.postI
 </b:if> 
 </b:if>
 </b:includable>
-<b:includable id='article.comments.messages.disabled'>
+    <b:includable id='article.comments.messages.disabled'>
 <div class='comment-disable'>
 <b:if cond='data:post.allowComments'>
 <!-- Comment Hasben Disabled in This Page (G+) -->
@@ -804,7 +845,7 @@ var configJso={'maxDepth':config.maxThreadDepth};var provider={'id':config.postI
 </b:if>
 </div>
 </b:includable>
-<b:includable id='article.comments.title.messages'>
+    <b:includable id='article.comments.title.messages'>
 <h3 class='title'>
 <b:if cond='data:post.numberOfComments &gt; 0'>
 <b:message name='messages.numberOfComments'>
@@ -815,7 +856,7 @@ var configJso={'maxDepth':config.maxThreadDepth};var provider={'id':config.postI
 </b:if>
 </h3>
 </b:includable>
-<b:includable id='article.loop'>
+    <b:includable id='article.loop'>
 <b:if cond='data:view.isHomepage or data:view.search and !data:view.search.label and !data:view.search.query'>
 <b:include name='article.loop.index'/>
 <b:elseif cond='data:view.search.label or data:view.search.query or data:view.isArchive'/>
@@ -824,10 +865,10 @@ var configJso={'maxDepth':config.maxThreadDepth};var provider={'id':config.postI
 <b:include name='article.loop.post'/>
 </b:if>
 </b:includable>
-<b:includable id='article.loop.index'>
+    <b:includable id='article.loop.index'>
 <ul class='post-list'>
 
-<b:loop values='data:posts' var='post' index='x'>      
+<b:loop index='x' values='data:posts' var='post'>      
 <li class='post-list-item fade' itemscope='itemscope' itemtype='https://schema.org/BlogPosting'>
 <article class='article-card article-type-post' id=''>
 
@@ -885,47 +926,7 @@ var configJso={'maxDepth':config.maxThreadDepth};var provider={'id':config.postI
 <b:include cond='data:view.isMultipleItems' name='article.pagination'/>
 </nav>
 </b:includable>
-<b:includable id='article.breadcrumb'>
-<aside class='post-widgets hidden'>
-<nav class='post-toc-wrap'>
-<h4>Breadcrumb</h4>
-<ol class='post-toc' itemscope='itemscope' itemtype='http://schema.org/BreadcrumbList'>
-<li class='post-toc-item active'>
-<a class='post-toc-link' expr:href='data:blog.homepageUrl' expr:title='data:messages.home'>
-<span class='post-toc-number'>1.</span>
-<span class='post-toc-text'><data:messages.home/></span>
-</a>      
-</li>
-<b:if cond='data:post.labels'>
-<b:loop index='no' values='data:post.labels limit 1' var='label'>
-<li class='post-toc-item active' itemprop='itemListElement' itemscope='itemscope' itemtype='http://schema.org/ListItem'>               
-<a class='post-toc-link' expr:href='data:label.url' expr:title='data:label.name' itemprop='item' itemscope='itemscope' itemtype='http://schema.org/Thing'>
-<span class='post-toc-number'><b:eval expr='data:no + 2'/>.</span>
-<span class='post-toc-text' itemprop='name'><data:label.name/></span>    
-</a>
-<meta expr:content='1 + data:no' itemprop='position'/>
-</li>
-</b:loop>
-<b:else/>
-<b:if cond='data:view.isPost'>
-<li class='post-toc-item active' itemprop='itemListElement' itemscope='itemscope' itemtype='http://schema.org/ListItem'>
-<span class='post-toc-number'><b:eval expr='data:no + 1'/></span>
-<span class='post-toc-text'>Unlabelled</span>                
-<meta content='1' itemprop='position'/>
-</li>
-</b:if>
-</b:if>
-<li class='post-toc-item active'>
-<a class='post-toc-link' expr:href='data:blog.url' expr:title='data:blog.url'>
-<span class='post-toc-number'/>
-<span class='post-toc-text'><data:post.title/></span>    
-</a>
-</li>
-</ol>
-</nav>
-</aside>  
-</b:includable>
-<b:includable id='article.loop.post'>
+    <b:includable id='article.loop.post'>
 <b:loop values='data:posts' var='post'> 
 <main aria-label='Main content' itemscope='itemscope' itemtype='https://schema.org/Blog'>
 <b:include cond='data:view.isPost' name='article.breadcrumb'/>
@@ -939,6 +940,9 @@ var configJso={'maxDepth':config.maxThreadDepth};var provider={'id':config.postI
 <b:eval expr='format(data:post.date, &quot;d MMM, YYYY HH:mm aaaa&quot;)'/>
 </time>         
 <span><b:include name='article.comments.link'/></span>
+<span id="busuanzi_container_page_pv" style='display:none'>
+<i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>
+</span>
 </div>
 </b:if>	
 <div class='post-content post-body' expr:itemprop='(data:blog.metaDescription ? &quot;&quot; : &quot;description &quot;) + &quot;articleBody&quot;' id='post-content'>
@@ -971,6 +975,7 @@ Last updated:
 </blockquote>
 
 <div class='post-footer'>
+
 <ul class='article-tag-list'>
 <b:if cond='data:post.labels and !data:post.labels.empty and data:this.allBylineItems.labels'>
 <b:loop values='data:post.labels' var='label'>
@@ -982,6 +987,32 @@ Last updated:
 <a class='article-tag-list-link' href='javascript:;'>Unlabelled</a>
 </b:if>                  
 </ul>
+
+<div class="page-share-wrap">
+<div class="page-share" id="pageShare">
+<ul class="reset share-icons">
+<li>
+<a class="facebook share-sns" target="_blank" expr:href='&quot;https://www.facebook.com/sharer/sharer.php?u=&quot; + data:blog.url' data-title="Facebook">
+<i class="icon icon-facebook"></i>
+</a>
+</li>
+<li>
+<a class="twitter share-sns" target="_blank" expr:href='&quot;http://twitter.com/share?url=&quot; + data:blog.url' data-title="Twitter">
+<i class="icon icon-twitter"></i>
+</a>
+</li>
+<li>
+<a class="google share-sns" target="_blank" expr:href='&quot;http://plus.google.com/share?url=&quot; + data:blog.url' data-title="Google+">
+<i class="icon icon-google-plus"></i>
+</a>
+</li>
+</ul>
+</div>
+<a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+<i class="icon icon-share-alt icon-lg"></i>
+</a>
+</div>
+
 </div>
 </b:if>
 
@@ -1025,7 +1056,7 @@ Last updated:
 </main>
 </b:loop>
 </b:includable>
-<b:includable id='article.microdata'>
+    <b:includable id='article.microdata'>
 <meta expr:content='data:post.title ? data:post.title : data:messages.noTitle' itemprop='name headline'/>
 <meta expr:content='data:post.link ? data:post.link : data:post.url' itemprop='mainEntityOfPage'/>
 <span itemprop='image' itemscope='itemscope' itemtype='https://schema.org/ImageObject'>
@@ -1055,7 +1086,7 @@ Last updated:
 <meta expr:content='data:post.author.name' itemprop='name'/>
 </span>
 </b:includable>
-<b:includable id='article.pagination'>
+    <b:includable id='article.pagination'>
 <div class='blog-pager' id='blog-pager'>
 <b:if cond='data:view.url == data:blog.homepageUrl AND !data:olderPageUrl'>
 <b:include name='article.pagination.home'/>
@@ -1065,65 +1096,65 @@ Last updated:
 <b:include cond='data:olderPageUrl' name='article.pagination.old'/>
 </div>
 </b:includable>
-<b:includable id='article.pagination.home'> 
+    <b:includable id='article.pagination.home'> 
 <div id='blog-pager-home-link'>         
 <a class='home-link page-number current' expr:href='data:blog.homepageUrl' expr:title='data:messages.home'>
 <data:messages.home/>
 </a>              
 </div>
 </b:includable>
-<b:includable id='article.pagination.new'>  
+    <b:includable id='article.pagination.new'>  
 <div id='blog-pager-newer-link'>          
 <a class='blog-pager-newer-link page-number current' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_pagination-new&quot;' expr:title='data:messages.newerPosts'>             
 <data:messages.newerPosts/>
 </a>            
 </div>  
 </b:includable>
-<b:includable id='article.pagination.old'>  
+    <b:includable id='article.pagination.old'>  
 <div id='blog-pager-older-link'>          
 <a class='blog-pager-older-link page-number current' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_pagination-old&quot;' expr:title='data:messages.olderPosts'>             
 <data:messages.olderPosts/>
 </a>  
 </div>            
 </b:includable>
-<b:includable id='commentAuthorAvatar'/>
-<b:includable id='commentDeleteIcon'/>
-<b:includable id='commentForm'/>
-<b:includable id='commentFormIframeSrc'/>
-<b:includable id='commentItem'/>
-<b:includable id='commentList'/>
-<b:includable id='commentPicker'/>
-<b:includable id='comments'/>
-<b:includable id='commentsTitle'/>
-<b:includable id='feedLinks'/>
-<b:includable id='feedLinksBody'/>
-<b:includable id='homePageLink'/>
-<b:includable id='iframeComments'/>
-<b:includable id='inlineAd'/>
-<b:includable id='nextPageLink'/>
-<b:includable id='post'/>
-<b:includable id='postBody'/>
-<b:includable id='postBodySnippet'/>
-<b:includable id='postCommentsAndAd'/>
-<b:includable id='postCommentsLink'/>
-<b:includable id='postFooter'/>
-<b:includable id='postFooterAuthorProfile'/>
-<b:includable id='postHeader'/>
-<b:includable id='postJumpLink'/>
-<b:includable id='postMeta'/>
-<b:includable id='postPagination'/>
-<b:includable id='postTitle'/>
-<b:includable id='previousPageLink'/>
-<b:includable id='status-message'/>
-<b:includable id='threadedCommentForm'/>
-<b:includable id='threadedCommentJs'/>
-<b:includable id='threadedComments'/>
-</b:widget>
-<b:widget cond='data:view.isMultipleItems and not data:view.isPreview' id='HTML555' locked='true' title='Advertisement Post Feed' type='HTML' version='2' visible='false'>
-<b:widget-settings>
-<b:widget-setting name='content'><![CDATA[<img src="https://placehold.it/960x120/03a9f4/fff?text=960x120" />]]></b:widget-setting>
-</b:widget-settings>
-<b:includable id='main'>      
+    <b:includable id='commentAuthorAvatar'/>
+    <b:includable id='commentDeleteIcon'/>
+    <b:includable id='commentForm'/>
+    <b:includable id='commentFormIframeSrc'/>
+    <b:includable id='commentItem'/>
+    <b:includable id='commentList'/>
+    <b:includable id='commentPicker'/>
+    <b:includable id='comments'/>
+    <b:includable id='commentsTitle'/>
+    <b:includable id='feedLinks'/>
+    <b:includable id='feedLinksBody'/>
+    <b:includable id='homePageLink'/>
+    <b:includable id='iframeComments'/>
+    <b:includable id='inlineAd'/>
+    <b:includable id='nextPageLink'/>
+    <b:includable id='post'/>
+    <b:includable id='postBody'/>
+    <b:includable id='postBodySnippet'/>
+    <b:includable id='postCommentsAndAd'/>
+    <b:includable id='postCommentsLink'/>
+    <b:includable id='postFooter'/>
+    <b:includable id='postFooterAuthorProfile'/>
+    <b:includable id='postHeader'/>
+    <b:includable id='postJumpLink'/>
+    <b:includable id='postMeta'/>
+    <b:includable id='postPagination'/>
+    <b:includable id='postTitle'/>
+    <b:includable id='previousPageLink'/>
+    <b:includable id='status-message'/>
+    <b:includable id='threadedCommentForm'/>
+    <b:includable id='threadedCommentJs'/>
+    <b:includable id='threadedComments'/>
+  </b:widget>
+  <b:widget cond='data:view.isMultipleItems and not data:view.isPreview' id='HTML555' locked='true' title='Advertisement Post Feed' type='HTML' version='2' visible='false'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<img src="https://placehold.it/960x120/03a9f4/fff?text=960x120" />]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>      
 <div id='ads-feed-post-source'>                
 <div class='adspost feed'>
 <data:content/>
@@ -1133,12 +1164,12 @@ Last updated:
 kodein_MoveByID(&#39;ads-feed-post-source&#39;,&#39;ads-feed-target&#39;);
 </script>     
 </b:includable>
-</b:widget>
-<b:widget cond='data:view.isPost and not data:view.isPreview' id='HTML111' locked='true' title='Advertisement Post Top' type='HTML' version='2' visible='false'>
-<b:widget-settings>
-<b:widget-setting name='content'><![CDATA[<img src="https://placehold.it/728x90/03a9f4/fff?text=728x90" />]]></b:widget-setting>
-</b:widget-settings>
-<b:includable id='main'>      
+  </b:widget>
+  <b:widget cond='data:view.isPost and not data:view.isPreview' id='HTML111' locked='true' title='Advertisement Post Top' type='HTML' version='2' visible='false'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<img src="https://placehold.it/728x90/03a9f4/fff?text=728x90" />]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>      
 <div id='ads-top-post-source'>                
 <div class='adspost'>
 <data:content/>
@@ -1148,36 +1179,36 @@ kodein_MoveByID(&#39;ads-feed-post-source&#39;,&#39;ads-feed-target&#39;);
 kodein_MoveByID(&#39;ads-top-post-source&#39;,&#39;ads-top-target&#39;);
 </script>     
 </b:includable>
-</b:widget>
-<b:widget cond='data:view.isPost and not data:view.isPreview' id='HTML333' locked='true' title='Advertisement Center' type='HTML' version='2' visible='false'>
-<b:widget-settings>
-<b:widget-setting name='content'><![CDATA[<img src="https://placehold.it/336x280/03a9f4/fff?text=336x280" />]]></b:widget-setting>
-</b:widget-settings>
-<b:includable id='main'>
+  </b:widget>
+  <b:widget cond='data:view.isPost and not data:view.isPreview' id='HTML333' locked='true' title='Advertisement Center' type='HTML' version='2' visible='false'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<img src="https://placehold.it/336x280/03a9f4/fff?text=336x280" />]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
 <div class='adspost center' id='content-ads'>
 <data:content/>
 </div>
 </b:includable>
-</b:widget>
-<b:widget cond='data:view.isPost and not data:view.isPreview' id='HTML444' locked='true' title='Advertisement Center [Setting]' type='HTML' version='2' visible='true'>
-<b:widget-settings>
-<b:widget-setting name='content'>var setting = {
+  </b:widget>
+  <b:widget cond='data:view.isPost and not data:view.isPreview' id='HTML444' locked='true' title='Advertisement Center [Setting]' type='HTML' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='content'>var setting = {
 taghtml: &quot;br&quot;, 
 index: &quot;3&quot;
 };</b:widget-setting>
-</b:widget-settings>
-<b:includable id='main'>              
+    </b:widget-settings>
+    <b:includable id='main'>              
 <script type='text/javascript'>
 <data:content/> 
 kodein_moveElement(&#39;after&#39;,setting.taghtml,setting.index,&#39;content-ads&#39;,&#39;post-content&#39;,&#39;beforeend&#39;);
 </script>     
 </b:includable>
-</b:widget>
-<b:widget cond='data:view.isPost and not data:view.isPreview' id='HTML222' locked='true' title='Advertisement Post Bottom' type='HTML' version='2' visible='false'>
-<b:widget-settings>
-<b:widget-setting name='content'><![CDATA[<img src="https://placehold.it/728x90/03a9f4/fff?text=728x90" />]]></b:widget-setting>
-</b:widget-settings>
-<b:includable id='main'>      
+  </b:widget>
+  <b:widget cond='data:view.isPost and not data:view.isPreview' id='HTML222' locked='true' title='Advertisement Post Bottom' type='HTML' version='2' visible='false'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<img src="https://placehold.it/728x90/03a9f4/fff?text=728x90" />]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>      
 <div id='ads-bottom-post-source'>               
 <div class='adspost bottom'>
 <data:content/>
@@ -1187,7 +1218,7 @@ kodein_moveElement(&#39;after&#39;,setting.taghtml,setting.index,&#39;content-ad
 kodein_MoveByID(&#39;ads-bottom-post-source&#39;,&#39;ads-bottom-target&#39;);
 </script>     
 </b:includable>
-</b:widget>
+  </b:widget>
 </b:section>
 
 </div>
@@ -1196,20 +1227,31 @@ kodein_MoveByID(&#39;ads-bottom-post-source&#39;,&#39;ads-bottom-target&#39;);
 <div class='top'>
 
 <b:section id='b-section-PageList1' maxwidgets='1' showaddelement='no'>
-<b:widget cond='!data:view.isPreview' id='HTML595' locked='true' title='Free HTML' type='HTML' version='2' visible='true'>
-<b:widget-settings>
-<b:widget-setting name='content'><![CDATA[]]></b:widget-setting>
-</b:widget-settings>
-<b:includable id='main'>
+  <b:widget cond='!data:view.isPreview' id='HTML595' locked='true' title='Free HTML' type='HTML' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot;&gt;
+var setting = {
+pageurl : &quot;/p/out.html&quot;,
+pengecualianstatus : false,
+pengecualian : &quot;google.com,twitter.com,javascript:;,mailto:&quot;,
+hanyauntukstatus : true,
+hanyauntuk : &quot;githubusercontent.com&quot;,
+path : &quot;#link?from=&quot;
+};	
+&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&#39;https://min.gitcdn.link/repo/irfaanprogrammer/bloggercode/master/js/crypto.js&#39;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&#39;https://min.gitcdn.link/repo/irfaanprogrammer/bloggercode/25e2c6011e4fec887aa622a0afe60cb3d95752b5/js/replacelink.js&#39;&gt;&lt;/script&gt;</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
 <data:content/>
 </b:includable>
-</b:widget>	
-<b:widget id='PageList1' locked='true' title='Pages' type='PageList' version='2' visible='false'>
-<b:widget-settings>
-<b:widget-setting name='pageListJson'><![CDATA[{'home': {'href': 'https://programmer.irfaandemmy.com/', 'title': 'Home', 'position': 0}}]]></b:widget-setting>
-<b:widget-setting name='homeTitle'>Home</b:widget-setting>
-</b:widget-settings>
-<b:includable id='main'>
+  </b:widget>
+  <b:widget id='PageList1' locked='true' title='Pages' type='PageList' version='2' visible='false'>
+    <b:widget-settings>
+      <b:widget-setting name='pageListJson'><![CDATA[{'home': {'href': 'https://programmer.irfaandemmy.com/', 'title': 'Home', 'position': 0}}]]></b:widget-setting>
+      <b:widget-setting name='homeTitle'>Home</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
 <p>
 <b:loop values='data:links' var='link'>
 <span>
@@ -1220,12 +1262,12 @@ kodein_MoveByID(&#39;ads-bottom-post-source&#39;,&#39;ads-bottom-target&#39;);
 </b:loop>
 </p>
 </b:includable>
-<b:includable id='content'/>
-<b:includable id='overflowButton'/>
-<b:includable id='overflowablePageList'/>
-<b:includable id='pageLink'/>
-<b:includable id='pageList'/>
-</b:widget>
+    <b:includable id='content'/>
+    <b:includable id='overflowButton'/>
+    <b:includable id='overflowablePageList'/>
+    <b:includable id='pageLink'/>
+    <b:includable id='pageList'/>
+  </b:widget>
 </b:section>    
 
 </div>
@@ -1261,43 +1303,43 @@ Lalu Lintas&#65306;<span id='busuanzi_value_site_pv'/>
 </template>
 
 <b:section id='b-section-Fiture1' maxwidgets='1' showaddelement='no'>
-<b:widget cond='!data:view.isPreview' id='HTML556' locked='true' title='Adblock Plugin' type='HTML' version='2' visible='false'>
-<b:widget-settings>
-<b:widget-setting name='content'>Adblock Detected</b:widget-setting>
-</b:widget-settings>
-<b:includable id='main'>
+  <b:widget cond='!data:view.isPreview' id='HTML556' locked='true' title='Adblock Plugin' type='HTML' version='2' visible='false'>
+    <b:widget-settings>
+      <b:widget-setting name='content'>Adblock Detected</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
 <script>
 //<![CDATA[
 !function(t){var e=function(e){this._options={checkOnLoad:!1,resetOnEnd:!1,loopCheckTime:50,loopMaxNumber:5,baitClass:"pub_300x250 pub_300x250m pub_728x90 text-ad textAd text_ad text_ads text-ads text-ad-links",baitStyle:"width: 1px !important; height: 1px !important; position: absolute !important; left: -10000px !important; top: -1000px !important;",debug:!1},this._var={version:"3.2.1",bait:null,checking:!1,loop:null,loopNumber:0,event:{detected:[],notDetected:[]}},void 0!==e&&this.setOption(e);var i=this,o=function(){setTimeout(function(){i._options.checkOnLoad===!0&&(i._options.debug===!0&&i._log("onload->eventCallback","A check loading is launched"),null===i._var.bait&&i._creatBait(),setTimeout(function(){i.check()},1))},1)};void 0!==t.addEventListener?t.addEventListener("load",o,!1):t.attachEvent("onload",o)};e.prototype._options=null,e.prototype._var=null,e.prototype._bait=null,e.prototype._log=function(t,e){console.log("[FuckAdBlock]["+t+"] "+e)},e.prototype.setOption=function(t,e){if(void 0!==e){var i=t;t={},t[i]=e}for(var o in t)this._options[o]=t[o],this._options.debug===!0&&this._log("setOption",'The option "'+o+'" he was assigned to "'+t[o]+'"');return this},e.prototype._creatBait=function(){var e=document.createElement("div");e.setAttribute("class",this._options.baitClass),e.setAttribute("style",this._options.baitStyle),this._var.bait=t.document.body.appendChild(e),this._var.bait.offsetParent,this._var.bait.offsetHeight,this._var.bait.offsetLeft,this._var.bait.offsetTop,this._var.bait.offsetWidth,this._var.bait.clientHeight,this._var.bait.clientWidth,this._options.debug===!0&&this._log("_creatBait","Bait has been created")},e.prototype._destroyBait=function(){t.document.body.removeChild(this._var.bait),this._var.bait=null,this._options.debug===!0&&this._log("_destroyBait","Bait has been removed")},e.prototype.check=function(t){if(void 0===t&&(t=!0),this._options.debug===!0&&this._log("check","An audit was requested "+(t===!0?"with a":"without")+" loop"),this._var.checking===!0)return this._options.debug===!0&&this._log("check","A check was canceled because there is already an ongoing"),!1;this._var.checking=!0,null===this._var.bait&&this._creatBait();var e=this;return this._var.loopNumber=0,t===!0&&(this._var.loop=setInterval(function(){e._checkBait(t)},this._options.loopCheckTime)),setTimeout(function(){e._checkBait(t)},1),this._options.debug===!0&&this._log("check","A check is in progress ..."),!0},e.prototype._checkBait=function(e){var i=!1;if(null===this._var.bait&&this._creatBait(),(null!==t.document.body.getAttribute("abp")||null===this._var.bait.offsetParent||0==this._var.bait.offsetHeight||0==this._var.bait.offsetLeft||0==this._var.bait.offsetTop||0==this._var.bait.offsetWidth||0==this._var.bait.clientHeight||0==this._var.bait.clientWidth)&&(i=!0),void 0!==t.getComputedStyle){var o=t.getComputedStyle(this._var.bait,null);!o||"none"!=o.getPropertyValue("display")&&"hidden"!=o.getPropertyValue("visibility")||(i=!0)}this._options.debug===!0&&this._log("_checkBait","A check ("+(this._var.loopNumber+1)+"/"+this._options.loopMaxNumber+" ~"+(1+this._var.loopNumber*this._options.loopCheckTime)+"ms) was conducted and detection is "+(i===!0?"positive":"negative")),e===!0&&(this._var.loopNumber++,this._var.loopNumber>=this._options.loopMaxNumber&&this._stopLoop()),i===!0?(this._stopLoop(),this._destroyBait(),this.emitEvent(!0),e===!0&&(this._var.checking=!1)):(null===this._var.loop||e===!1)&&(this._destroyBait(),this.emitEvent(!1),e===!0&&(this._var.checking=!1))},e.prototype._stopLoop=function(t){clearInterval(this._var.loop),this._var.loop=null,this._var.loopNumber=0,this._options.debug===!0&&this._log("_stopLoop","A loop has been stopped")},e.prototype.emitEvent=function(t){this._options.debug===!0&&this._log("emitEvent","An event with a "+(t===!0?"positive":"negative")+" detection was called");var e=this._var.event[t===!0?"detected":"notDetected"];for(var i in e)this._options.debug===!0&&this._log("emitEvent","Call function "+(parseInt(i)+1)+"/"+e.length),e.hasOwnProperty(i)&&e[i]();return this._options.resetOnEnd===!0&&this.clearEvent(),this},e.prototype.clearEvent=function(){this._var.event.detected=[],this._var.event.notDetected=[],this._options.debug===!0&&this._log("clearEvent","The event list has been cleared")},e.prototype.on=function(t,e){return this._var.event[t===!0?"detected":"notDetected"].push(e),this._options.debug===!0&&this._log("on",'A type of event "'+(t===!0?"detected":"notDetected")+'" was added'),this},e.prototype.onDetected=function(t){return this.on(!0,t)},e.prototype.onNotDetected=function(t){return this.on(!1,t)},t.FuckAdBlock=e,void 0===t.fuckAdBlock&&(t.fuckAdBlock=new e({checkOnLoad:!0,resetOnEnd:!0}))}(window); 
 //]]>
 fuckAdBlock.on(true, function() {
-$("#adbs").html("<data:content/>");
-$("#adb").removeClass('hidden');
-$("body").css('overflow','hidden');
+$(&quot;#adbs&quot;).html(&quot;<data:content/>&quot;);
+$(&quot;#adb&quot;).removeClass(&#39;hidden&#39;);
+$(&quot;body&quot;).css(&#39;overflow&#39;,&#39;hidden&#39;);
 }).on(false, function() {
 });	
 </script>
-<div class="adb hidden" id="adb">
-<div class="adbs" id='adbs'></div>
+<div class='adb hidden' id='adb'>
+<div class='adbs' id='adbs'/>
 </div> 
 </b:includable>
-</b:widget>
-<b:widget cond='!data:view.isPreview' id='HTML597' locked='true' title='Count Viewer' type='HTML' version='2' visible='true'>
-<b:widget-settings>
-<b:widget-setting name='content'></b:widget-setting>
-</b:widget-settings>
-<b:includable id='main'>
+  </b:widget>
+  <b:widget cond='!data:view.isPreview' id='HTML597' locked='true' title='Count Viewer' type='HTML' version='2' visible='false'>
+    <b:widget-settings>
+      <b:widget-setting name='content'/>
+    </b:widget-settings>
+    <b:includable id='main'>
 <script>
 /*<![CDATA[*/
 var bszCaller,bszTag;!function(){var c,d,e,a=!1,b=[];ready=function(c){return a||"interactive"===document.readyState||"complete"===document.readyState?c.call(document):b.push(function(){return c.call(this)}),this},d=function(){for(var a=0,c=b.length;c>a;a++)b[a].apply(document);b=[]},e=function(){a||(a=!0,d.call(window),document.removeEventListener?document.removeEventListener("DOMContentLoaded",e,!1):document.attachEvent&&(document.detachEvent("onreadystatechange",e),window==window.top&&(clearInterval(c),c=null)))},document.addEventListener?document.addEventListener("DOMContentLoaded",e,!1):document.attachEvent&&(document.attachEvent("onreadystatechange",function(){/loaded|complete/.test(document.readyState)&&e()}),window==window.top&&(c=setInterval(function(){try{a||document.documentElement.doScroll("left")}catch(b){return}e()},5)))}(),bszCaller={fetch:function(a,b){var c="BusuanziCallback_"+Math.floor(1099511627776*Math.random());window[c]=this.evalCall(b),a=a.replace("=BusuanziCallback","="+c),scriptTag=document.createElement("SCRIPT"),scriptTag.type="text/javascript",scriptTag.defer=!0,scriptTag.src=a,document.getElementsByTagName("HEAD")[0].appendChild(scriptTag)},evalCall:function(a){return function(b){ready(function(){try{a(b),scriptTag.parentElement.removeChild(scriptTag)}catch(c){bszTag.hides()}})}}},bszCaller.fetch("//busuanzi.ibruce.info/busuanzi?jsonpCallback=BusuanziCallback",function(a){bszTag.texts(a),bszTag.shows()}),bszTag={bszs:["site_pv","page_pv","site_uv"],texts:function(a){this.bszs.map(function(b){var c=document.getElementById("busuanzi_value_"+b);c&&(c.innerHTML=a[b])})},hides:function(){this.bszs.map(function(a){var b=document.getElementById("busuanzi_container_"+a);b&&(b.style.display="none")})},shows:function(){this.bszs.map(function(a){var b=document.getElementById("busuanzi_container_"+a);b&&(b.style.display="inline")})}};
 /*]]>*/
 </script>
 </b:includable>
-</b:widget>
-<b:widget id='ContactForm1' locked='true' title='Contact Static Page' type='ContactForm' version='2' visible='true'>
-<b:includable id='main'/>
-<b:includable id='content'/>
-</b:widget>	
+  </b:widget>
+  <b:widget id='ContactForm1' locked='true' title='Contact Static Page' type='ContactForm' version='2' visible='true'>
+    <b:includable id='main'/>
+    <b:includable id='content'/>
+  </b:widget>
 </b:section>
 
 <b:include name='body'/>
