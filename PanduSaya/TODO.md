@@ -1,2 +1,0 @@
-- 404 page ?
-- Archive page  ? redirect
