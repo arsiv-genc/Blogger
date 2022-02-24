@@ -2,11 +2,8 @@
 
 ![Riedayme](https://github.com/riedayme/Blogger/blob/master/PanduSaya/preview.png?raw=true)
 
-## Change Log
-4 Februari 2022
-* Created Template
-6 Februari 2022
-* Release First Version
+# Featured
+- Beautiful View for Read Tutorial
 
 ## Blog : 
 [PanduSaya](https://pandusayatheme.blogspot.com)
